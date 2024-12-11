@@ -152,7 +152,7 @@ const projects: Project[] = [
       },
       {
         type: "Source",
-        href: "hi",
+        // href: "https://github.com/RijoKsd/Todo-App-Mern",
         icon: <Github className="w-4 h-4" />,
       },
     ],
@@ -178,7 +178,7 @@ const projects: Project[] = [
       },
       {
         type: "Source",
-        href: "hi",
+        href: "https://github.com/RijoKsd/E-Store",
         icon: <Github className="w-4 h-4" />,
       },
     ],

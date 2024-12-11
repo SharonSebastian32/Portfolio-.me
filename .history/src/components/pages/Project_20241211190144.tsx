@@ -4,7 +4,7 @@ import { Globe, Github } from "lucide-react";
 
 import chatImage from "../../assets/projects/chat.png";
 import fieldesk from "../../assets/projects/fieldExecutive.png";
-import foodImage from "../../assets/projects/food.png";
+  import foodImage from "../../assets/projects/food.png";
 import todoImage from "../../assets/projects/todo.png";
 import eStoreImage from "../../assets/projects/estore.png";
 import snapPost from "../../assets/projects/SnapPost.png";
@@ -29,11 +29,11 @@ const projects: Project[] = [
       "Node.js",
       "Tailwind CSS",
       "Redux Saga",
-      "Berry UI",
+      'Berry UI',
       "Redux Toolkit",
       "Redux Persist",
       "flutter",
-      "Android Studio",
+      'Android Studio',
     ],
     links: [
       {
@@ -50,17 +50,20 @@ const projects: Project[] = [
     image: fieldesk,
   },
 
+
+  
   {
     title: "SnapPost",
     description:
       "SnapPost is a MERN stack social media platform designed for wildlife photographers to share their work and connect with like-minded enthusiasts. It features a secure authentication system using JWT, allowing users to create and manage profiles, upload photos, and interact with other users through likes and comments. The platform enables users to categorize their posts based on different wildlife species and locations. Additionally, SnapPost offers a search and filter function to explore specific categories of photos, and an intuitive dashboard that showcases trending posts and user statistics. It also supports real-time notifications and updates to keep users engaged",
     technologies: [
-      "ejs",
+       "ejs",
       "TypeScript",
       "MongoDB",
       "Express.js",
       "Node.js",
       "Tailwind CSS",
+     
     ],
     links: [
       {
@@ -93,12 +96,12 @@ const projects: Project[] = [
     links: [
       {
         type: "Website",
-        href: "https://sharonsebastian24.netlify.app//", //need modification
+        href: "https://sharonsebastian24.netlify.app//",
         icon: <Globe className="w-4 h-4" />,
       },
       {
         type: "Source",
-        href: "https://sharonsebastian24.netlify.app/", //need modification
+        href: "https://sharonsebastian24.netlify.app/",
         icon: <Github className="w-4 h-4" />,
       },
     ],
@@ -126,7 +129,7 @@ const projects: Project[] = [
       },
       {
         type: "Source",
-        href: "//need modification",
+        href: "https://github.com/RijoKsd/food-delivery-app",
         icon: <Github className="w-4 h-4" />,
       },
     ],
@@ -152,7 +155,7 @@ const projects: Project[] = [
       },
       {
         type: "Source",
-        href: "hi",
+        href: "https://github.com/RijoKsd/Todo-App-Mern",
         icon: <Github className="w-4 h-4" />,
       },
     ],
@@ -178,7 +181,7 @@ const projects: Project[] = [
       },
       {
         type: "Source",
-        href: "hi",
+        href: "https://github.com/RijoKsd/E-Store",
         icon: <Github className="w-4 h-4" />,
       },
     ],
