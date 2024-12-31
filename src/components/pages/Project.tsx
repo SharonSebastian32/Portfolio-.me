@@ -8,6 +8,7 @@ import foodImage from "../../assets/projects/food.png";
 import todoImage from "../../assets/projects/todo.png";
 import eStoreImage from "../../assets/projects/estore.png";
 import snapPost from "../../assets/projects/SnapPost.png";
+import TurfSpot from "../../assets/projects/turf.png";
 
 interface Project {
   title: string;
@@ -32,8 +33,6 @@ const projects: Project[] = [
       "Berry UI",
       "Redux Toolkit",
       "Redux Persist",
-      "flutter",
-      "Android Studio",
     ],
     links: [
       {
@@ -48,6 +47,36 @@ const projects: Project[] = [
       },
     ],
     image: fieldesk,
+  },
+  {
+    title: "TurfSpot",
+    description:
+      "TurfSpot is a turf booking platform and  in this platform contain users, owners and platform admin and they respective roles and functionalities ",
+    technologies: [
+      "React.js",
+      "JavaScript",
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+      "Tailwind CSS",
+      "Redux Saga",
+      "Berry UI",
+      "Redux Toolkit",
+      "Redux Persist",
+    ],
+    links: [
+      {
+        type: "Website",
+        href: "https://turfspotuser.netlify.app/",
+        icon: <Globe className="w-4 h-4" />,
+      },
+      {
+        type: "Source",
+        href: "https://github.com/SharonSebastian32/Turf-user.git",
+        icon: <Github className="w-4 h-4" />,
+      },
+    ],
+    image: TurfSpot,
   },
 
   {
